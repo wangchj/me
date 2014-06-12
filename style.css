@@ -1,0 +1,206 @@
+
+body{
+    font-family:proxima-nova, proxima-nova-1, proxima-nova-2, HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:14px;
+    line-height:22px;
+    margin:0;
+}
+
+a{
+    color:#333333;
+}
+
+/**
+ * Container for both content and sidebar.
+ * The purpose is to center the body, which includes main content and sidebar.
+ */
+#body_wrap1{
+    /*border:2px solid black;*/
+    width:1000px;
+    /*float:left;*/
+    margin:0 auto;
+}
+
+#content{
+    /*border:1px solid #dddddd;*/
+    width:650px;
+    float:left;
+    margin-right:40px;
+}
+
+/* Navbar */
+.navbar{
+    width:100%;
+    background-image: linear-gradient(to bottom, #222, #111);
+    background-color: #333;
+    margin-top:0;
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+    text-align:center;
+}
+
+.navbar ul{
+    margin-top:0;
+    margin-bottom:0;
+    list-style: none;
+    padding:0px;
+}
+.navbar ul li{
+    display:inline-block;
+    /*margin-right:20px;*/
+    padding-top:10px;
+    padding: 10px 20px;
+}
+.navbar ul li.active{background-color:#111;}
+.navbar ul li.active a{color:#fff;}
+
+.navbar ul li a{
+    color:#999;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:13px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color:#fff;
+}
+form.search-form{
+    display:inline;
+}
+form.search-form input{
+    color: #FFF;
+    background-color: #515151;
+    border-color: #111;
+    /*box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.15);*/
+    transition: none 0s ease 0s;
+    padding: 4px 14px;
+    margin-bottom: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    border-radius: 15px;
+    border: 1px solid #515151;
+    margin:0;
+}
+
+form.search-form span.screen-reader-text{
+    display:none;
+}
+form.search-form input.search-submit{
+    display:none;
+}
+/**
+ * Side bar container
+ */
+#secondary{
+    /*border:1px solid #b6d1dd;*/
+    width:300px;
+    float:left;
+    margin: 0;
+}
+
+h1.entry-title{
+    margin-bottom: 2px;
+}
+.entry-title{
+    color:#000000;
+    font-size:24px;
+}
+.entry-title a{
+	text-decoration:none;
+}
+.entry-meta{
+    font-size:12px;
+}
+.entry-meta a{text-decoration: none; color:#000;}
+
+article.post{
+    padding-bottom:15px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+}
+.post-thumbnail img
+{
+    width:100%;
+    margin-top:15px;
+}
+.tag-links{
+    margin-top:20px;
+    color:#808080;
+}
+.tag-links a{
+    color:#454545;
+    font-size:12px;
+    text-decoration: none;
+}
+
+/* Sidebar widget title */
+#primary-sidebar{
+    font-size:11px;
+}
+
+/* Sidebar list style */
+#secondary ul{
+    list-style: none;
+    padding-left:0px;
+}
+
+/* Paging navigation*/
+nav.paging-navigation h1{
+    display:none;
+}
+
+/* Page footer style */
+footer {
+    clear:both;
+    float:left;
+    width:100%;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 50px;
+    border-top: 1px solid #E5E5E5;
+    background-color: #F5F5F5;
+}
+
+blockquote{
+    margin: 20px 10px 10px 5px;
+    border-left: 4px solid #DDD;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-width: 1px 0px 0px 1px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+th,td{padding:5px;}
+
+/* For phones with smaller screens */
+@media screen and (max-width: 650px) {
+
+	#secondary{
+		display:none;
+	}
+	#body_wrap1{
+		width:100%;
+	}
+	#content{
+	    /*border:1px solid #dddddd;*/
+	    width:100%;
+	    float:left;
+	    /*margin-right:40px;*/
+	}
+	.navwrap{ /* Purpose: set equal margin on both sides (left and right) of navbar. */
+    	width:100%;
+    	margin:0 auto;
+	}
+}

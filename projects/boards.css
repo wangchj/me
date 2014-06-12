@@ -1,0 +1,32 @@
+
+.orignally_body
+{
+    /*background-image: url("http://farm6.static.flickr.com/5270/5676732818_a63fbd0c4e_z.jpg");*/
+    background-image: url("../images/ios_linen_texture.png");
+    color: #e2e2e2; /*#383838;*/
+    font-family: Tahoma, Helvetica, Arial, Sans-Serif;
+    line-height: 26px;
+}
+
+#canvas
+{
+    color: #e2e2e2; /*#383838;*/
+    font-family: Tahoma, Helvetica, Arial, Sans-Serif;
+    line-height: 26px;
+}
+
+#canvas h1
+{
+    font: 48px Tahoma, Helvetica, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #111;
+    text-shadow: 0px 1px 1px #777;
+}
+
+.desc
+{
+    width: 600px;
+    margin-top:20px;
+    text-shadow: 0px 2px 3px #171717;
+    text-align: justify;
+}
