@@ -16,7 +16,7 @@ body
 .app
 {
     float:left;
-    margin-right:40px;
+    margin:0px 20px;
     cursor:pointer;
     font-size:14px;
 }
@@ -33,11 +33,11 @@ body
 #canvas
 {
     
-    -moz-box-shadow:    inset  0  5px 5px -2px #000, 
+    -moz-box-shadow:    inset  0  5px 5px -4px #000, 
                         inset  0 -5px 5px -4px #000;
-    -webkit-box-shadow: inset  0  5px 5px -2px #000, 
+    -webkit-box-shadow: inset  0  5px 5px -4px #000, 
                         inset  0 -5px 5px -4px #000;
-    box-shadow:         inset  0  5px 5px -2px #000, 
+    box-shadow:         inset  0  5px 5px -4px #000, 
                         inset  0 -5px 5px -4px #000;
     
 }
