@@ -42,6 +42,7 @@ $(function(){
     });
 
     $('#canvas').click(function(e){e.stopPropagation();});
+    $('#canvas').on('tap', function(e){e.stopPropagation();});
 
     $(document).click(function(e){
         if(e.which == 1)
