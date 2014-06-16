@@ -47,6 +47,9 @@ $(function(){
         if(e.which == 1)
             resetLayout();
     });
+
+    $(document).on('tap', function(e){resetLayout();});
+    $('a').attr('rel', 'external');
 });
 
 /**
