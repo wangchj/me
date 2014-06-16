@@ -43,8 +43,9 @@ $(function(){
 
     $('#canvas').click(function(e){e.stopPropagation();});
 
-    $(document).click(function(){
-        resetLayout();
+    $(document).click(function(e){
+        if(e.which == 1)
+            resetLayout();
     });
 });
 
