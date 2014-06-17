@@ -6,7 +6,7 @@ var boardShown   = '';
  * Entry point of the script. This is called after the page is loaded.
  */
 $(function(){
-    $('.app').click(function(e)
+    $('.app').on('click tap', function(e)
     {
         //Set the correct board on canvas
         updateDisplayBoard(this.id);
@@ -41,8 +41,7 @@ $(function(){
         e.stopPropagation(); 
     });
 
-    $('#canvas').click(function(e){e.stopPropagation();});
-    $('#canvas').on('tap', function(e){e.stopPropagation();});
+    $('#canvas').on('click tap', function(e){e.stopPropagation();});
 
     $(document).click(function(e){
         if(e.which == 1)
